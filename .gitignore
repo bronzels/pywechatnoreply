@@ -1,0 +1,17 @@
+target/
+*.iml
+*.sqlite3
+.idea/
+venv/
+__pycache__/
+*.bak
+data/pywechatnoreply/albert_tiny/*
+!data/pywechatnoreply/albert_tiny/__init__.py
+data/pywechatnoreply/rbt3/*
+!data/pywechatnoreply/rbt3/__init__.py
+data/pretrainedmodel/*
+data/corpus/*
+!data/corpus/noreplycorpus_0521.7z
+!data/corpus/asr.json
+data/tmp/
+data/media/

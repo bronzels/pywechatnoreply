@@ -1,0 +1,5 @@
+{
+  "project_id" : "pywechatnoreply",
+  "conduit_uri" : "http://phabricator.my.org:10080",
+  "phabricator.uri" : "http://phabricator.my.org:10080"
+}

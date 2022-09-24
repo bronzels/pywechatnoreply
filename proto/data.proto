@@ -1,0 +1,20 @@
+syntax = "proto3";
+package proto;
+service ClassifyData {
+  rpc Do(Input) returns (Output){}
+}
+message InputRecord {
+  optional string id = 1;
+  optional string text = 2;
+}
+message Input {
+  repeated InputRecord records = 1;
+}
+message OutputRecord {
+  optional string id = 1;
+  optional int32 classifier = 2;
+  optional int32 rawclassifier = 3;
+}
+message Output {
+  repeated OutputRecord records = 1;
+}
